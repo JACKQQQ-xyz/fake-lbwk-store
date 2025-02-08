@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://libertywalk.co.jp/wp-content/uploads/2023/06/cropped-2023-NEW-LOGO-LB-Liberty-walk-1-32x32.png" sizes="32x32">
+    <title>Liberty Walk REMAKE  | リバティーウォーク Complete car and customize!</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <!--Header-->
+
+    <!--max-lg:border-b max-lg:py-3 relative lg:after:absolute lg:after:bg-black lg:after:w-full lg:after:h-[3px] lg:after:block lg:after:-bottom-2 lg:after:transition-all lg:after:duration-300-->
+    <header
+    class='shadow-md py-2 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide sticky top-0 z-50'>
+    <div class='w-full flex flex-wrap items-center lg:gap-y-4 gap-y-6 gap-x-4 relative'>
+      <a href="index.html"><img src="./assets/logo.jpg" alt="logo" class=' h-19' />
+      </a>
+      <div id="collapseMenu"
+        class="max-lg:hidden lg:!flex lg:items-center lg:flex-1 max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-40 max-lg:before:inset-0 max-lg:before:z-50">
+        <button id="toggleClose"
+          class='lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white w-9 h-9 flex items-center justify-center border'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 fill-black" viewBox="0 0 320.591 320.591">
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"></path>
+          </svg>
+        </button>
+        <ul
+          class='lg:ml-12 lg:flex lg:gap-x-8 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-2/3 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:px-8 max-lg:py-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
+          <li class='mb-6 hidden max-lg:block'>
+            <a href=""><img src="https://readymadeui.com/readymadeui-short.svg" alt="logo"
+                class='w-9 h-9' />
+            </a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:after:absolute lg:after:bg-black lg:after:w-full lg:after:h-[3px] lg:after:block lg:after:-bottom-2 lg:after:transition-all lg:after:duration-300'>
+            <a href='index.html' class='text-[#333] block text-sm font-semibold'>HOME</a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:hover:after:absolute lg:after:bg-black lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[3px] lg:after:block lg:after:-bottom-2 lg:after:transition-all lg:after:duration-300 '>
+            <a href='bodykit.html' class='text-[#333] block text-sm font-semibold'>BODY KIT</a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:hover:after:absolute lg:after:bg-black lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[3px] lg:after:block lg:after:-bottom-2 lg:after:transition-all lg:after:duration-300'>
+            <a href='stockcar.html' class='text-[#333] block text-sm font-semibold'>STOCK CAR</a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:hover:after:absolute lg:after:bg-black lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[3px] lg:after:block lg:after:-bottom-2 lg:after:transition-all lg:after:duration-300'>
+            <a href='autoparts.html' class='text-[#333] block text-sm font-semibold'>AUTO PARTS</a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:hover:after:absolute lg:after:bg-black lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[3px] lg:after:block lg:after:-bottom-2 lg:after:transition-all lg:after:duration-300'>
+            <a href='gallery.html' class='text-[#333] block text-sm font-semibold'>GALLERY</a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:hover:after:absolute lg:after:bg-black lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[3px] lg:after:block lg:after:-bottom-2 lg:after:transition-all lg:after:duration-300'>
+            <a href='event.html' class='text-[#333] block text-sm font-semibold'>EVENT</a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:hover:after:absolute lg:after:bg-black lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[3px] lg:after:block lg:after:-bottom-2 lg:after:transition-all lg:after:duration-300'>
+            <a href='merchandise.html' class='text-[#333] block text-sm font-semibold'>MERCHANDISE</a>
+          </li>
+        </ul>
+      </div>
+      <div class='flex items-center ml-auto'>
+        <ul class="flex space-x-4">
+          <li id="profile-dropdown-toggle"
+            class="relative px-1 after:absolute after:bg-black after:w-0 hover:after:w-full hover:after:h-[3px] after:block after:-bottom-2 after:left-0 after:transition-all after:duration-300">
+            <div class="flex flex-col justify-center items-center cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 512 512">
+                <path
+                  d="M337.711 241.3a16 16 0 0 0-11.461 3.988c-18.739 16.561-43.688 25.682-70.25 25.682s-51.511-9.121-70.25-25.683a16.007 16.007 0 0 0-11.461-3.988c-78.926 4.274-140.752 63.672-140.752 135.224v107.152C33.537 499.293 46.9 512 63.332 512h385.336c16.429 0 29.8-12.707 29.8-28.325V376.523c-.005-71.552-61.831-130.95-140.757-135.223zM446.463 480H65.537V376.523c0-52.739 45.359-96.888 104.351-102.8C193.75 292.63 224.055 302.97 256 302.97s62.25-10.34 86.112-29.245c58.992 5.91 104.351 50.059 104.351 102.8zM256 234.375a117.188 117.188 0 1 0-117.188-117.187A117.32 117.32 0 0 0 256 234.375zM256 32a85.188 85.188 0 1 1-85.188 85.188A85.284 85.284 0 0 1 256 32z"
+                  data-original="#000000" />
+              </svg>
+              <span class="text-xs font-semibold mt-1">Profile</span>
+            </div>
+          </li>
+          <li
+            class="relative px-1 after:absolute after:bg-black after:w-0 hover:after:w-full hover:after:h-[3px] after:block after:-bottom-2 after:left-0 after:transition-all after:duration-300">
+            <div class="flex flex-col justify-center items-center cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 64 64">
+                <path
+                  d="M45.5 4A18.53 18.53 0 0 0 32 9.86 18.5 18.5 0 0 0 0 22.5C0 40.92 29.71 59 31 59.71a2 2 0 0 0 2.06 0C34.29 59 64 40.92 64 22.5A18.52 18.52 0 0 0 45.5 4ZM32 55.64C26.83 52.34 4 36.92 4 22.5a14.5 14.5 0 0 1 26.36-8.33 2 2 0 0 0 3.27 0A14.5 14.5 0 0 1 60 22.5c0 14.41-22.83 29.83-28 33.14Z"
+                  data-original="#000000"></path>
+              </svg>
+              <span class="text-xs font-semibold mt-1">Wishlist</span>
+            </div>
+          </li>
+          <li
+            class="relative px-1 after:absolute after:bg-black after:w-0 hover:after:w-full hover:after:h-[3px] after:block after:-bottom-2 after:left-0 after:transition-all after:duration-300">
+            <div class="flex flex-col justify-center items-center cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 489 489">
+                <path
+                  d="m440.1 422.7-28-315.3c-.6-7-6.5-12.3-13.4-12.3h-57.6C340.3 42.5 297.3 0 244.5 0s-95.8 42.5-96.6 95.1H90.3c-7 0-12.8 5.3-13.4 12.3l-28 315.3c0 .4-.1.8-.1 1.2 0 35.9 32.9 65.1 73.4 65.1h244.6c40.5 0 73.4-29.2 73.4-65.1 0-.4 0-.8-.1-1.2zM244.5 27c37.9 0 68.8 30.4 69.6 68.1H174.9c.8-37.7 31.7-68.1 69.6-68.1zm122.3 435H122.2c-25.4 0-46-16.8-46.4-37.5l26.8-302.3h45.2v41c0 7.5 6 13.5 13.5 13.5s13.5-6 13.5-13.5v-41h139.3v41c0 7.5 6 13.5 13.5 13.5s13.5-6 13.5-13.5v-41h45.2l26.9 302.3c-.4 20.7-21.1 37.5-46.4 37.5z"
+                  data-original="#000000" />
+              </svg>
+              <span class="text-xs font-semibold mt-1">Bag</span>
+            </div>
+          </li>
+        </ul>
+        <button id="toggleOpen" class='lg:hidden ml-6'>
+          <svg class="w-8 h-8" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+    
+    <!--Carousel Image-->
+    
+    <div class="mb-5 mt-3 max-w-465 mx-auto">
+
+      <div id="default-carousel" class="relative rounded-lg overflow-hidden shadow-lg" data-carousel="static">
+          <div class="relative h-80 md:h-200" data-carousel-inner>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img src="./assets/autosalon.jpg"
+                      class="object-cover w-full -full" alt="Slide 1">
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img src="./assets/LINE_ALBUM_2025.1.11_250112_1.jpg"
+                      class="object-cover w-full h-full" alt="Slide 2">
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img src="./assets/S__7798836.jpg"
+                      class="object-cover w-full h-full" alt="Slide 3">
+              </div>
+          </div>
+          <button type="button"
+              class="flex absolute top-1/2 left-3 z-40 items-center justify-center w-10 h-10 bg-white rounded-full hover:bg-gray-300 focus:outline-none transition"
+              data-carousel-prev>
+              <svg class="w-5 h-5 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+              </svg>
+          </button>
+          <button type="button"
+              class="flex absolute top-1/2 right-3 z-40 items-center justify-center w-10 h-10 bg-white rounded-full hover:bg-gray-300 focus:outline-none transition"
+              data-carousel-next>
+              <svg class="w-5 h-5 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+          </button>
+      </div>
+      <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+  
+    </div>
+
+    <!--About Us-->
+
+    <section class="bg-gray-100">
+      <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+              <div class="max-w-lg">
+                  <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">About liberty Walk</h2>
+                  <p class="mt-4 text-gray-600 text-lg">Liberty Walk (LBWK) is a Japanese automotive company founded by Wataru Kato, 
+                    specializing in custom wide-body kits and modifications for high-performance cars like Ferrari, Lamborghini, and Nissan. 
+                    Known for its bold and aggressive designs, LBWK has gained global recognition in the tuning community. The brand offers various product lines, 
+                    including LB★Works, LB★Performance, and LB★Nation, catering to different styles and vehicle types. Beyond body kits, Liberty Walk also provides 
+                    apparel, accessories, and scale models. With Liberty Walk USA as its official distributor, the company continues to
+                    push the boundaries of automotive customization while staying true to its Japanese street-racing heritage.</p>
+              </div>
+              <div class="mt-12 md:mt-0">
+                  <img src="./assets/wataru-kato.png" alt="About Us Image" class="object-cover rounded-lg shadow-md">
+              </div>
+          </div>
+      </div>
+  </section>
+                                          
+
+    <!--Section-->
+
+    <section class="bg-white">
+        <div class="py-4 px-2 mx-auto sm:py-4 lg:px-6"> 
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
+                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
+                    <a href="./bodykit.html" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                        <img src="./assets/bodykit-1.jpg" alt="" class="drop-shadow-lg absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                        <h3 class="z-10 text-2xl font-bold text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">BODY KIT</h3>
+                    </a>
+                </div>
+                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
+                    <a href="./gallery.html" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
+                        <img src="./assets/motorfanfesta00033-1024x683.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                        <h3 class="z-10 text-2xl font-bold text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">GALLERY</h3>
+                    </a>
+                    <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
+                        <a href="./merchandise.html" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                            <img src="./assets/MC164-BK23.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                            <h3 class="z-10 text-2xl font-bold text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">MERCHANDISE</h3>
+                        </a>
+                        <a href="./autoparts.html" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                            <img src="./assets/LB-WORKS-FERRARI-F4000011.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                            <h3 class="z-10 text-2xl font-bold text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">AUTO PARTS</h3>
+                        </a>
+                    </div>
+                </div>
+                  <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-1">
+                      <a href="./merchandise.html" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                          <img src="./assets/MC164-BK23.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                          <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                          <h3 class="z-10 text-2xl font-bold text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">MERCHANDISE</h3>
+                      </a>
+                      <a href="./event.html" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                          <img src="./assets/449394443_18440591440059794_3407014845649784434_n-1024x1024.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                          <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                          <h3 class="z-10 text-2xl font-bold text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">EVENT</h3>
+                      </a>
+                  </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--Sponsor-->
+
+    <div class="bg-white w-full px-4 pt-16 pb-16" id="faq">
+      <h2 class="text-4xl font-bold text-center font-[sans-serif]">OFFICIAL PARTNER</h2>
+      <div
+          class="mt-10 mx-auto w-full max-w-4xl bg-white justify-center items-center grid  md:grid-cols-3 gap-3">
+          <a target="_blank" href="https://minigt.tsm-models.com/">
+              <img alt="" class="h-20 mx-auto" src="./assets/minigt.png">
+          </a>
+          <a target="_blank" href="https://www.liqui-moly.com/en/">
+              <img alt="" class="h-20 mx-auto" src="./assets/liquimoly.png">
+          </a>
+          <a target="_blank" href="https://hotwheels.com/">
+              <img alt="" class="h-20 mx-auto" src="./assets/hotwheels.png">
+          </a>
+      </div>
+  </div>
+
+    <!--Footer-->
+
+    <footer class="p-4 bg-gray-100 md:p-8 lg:p-10 ">
+      <div class="mx-auto max-w-screen-xl text-center">
+          <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
+              <img class="w-90" src="./assets/2024-Liberty-walk-LOGO.png" alt=""> 
+          </a>
+          <p class=" my-6 mt-2  text-gray-900 text-[#333] block text-sm font-[sans-serif] font-semibold">Imagine All Of The People Living Life In Peace.</p>
+          <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+              <li>
+                  <a href="#" class="font-[sans-serif] mr-4 hover:underline md:mr-6 text-[#333] block text-sm font-semibold">About</a>
+              </li>
+              <li>
+                  <a href="#" class="font-[sans-serif] mr-4 hover:underline md:mr-6 text-[#333] block text-sm font-semibold">LB★Works</a>
+              </li>
+              <li>
+                  <a href="#" class="font-[sans-serif] mr-4 hover:underline md:mr-6 text-[#333] block text-sm font-semibold">LB★Performance</a>
+              </li>
+              <li>
+                  <a href="#" class="font-[sans-serif] mr-4 hover:underline md:mr-6 text-[#333] block text-sm font-semibold">LB★Nation</a>
+              </li>
+              <li>
+                  <a href="#" class="font-[sans-serif] mr-4 hover:underline md:mr-6 text-[#333] block text-sm font-semibold">Blog</a>
+              </li>
+              <li>
+                  <a href="#" class="font-[sans-serif] mr-4 hover:underline md:mr-6 text-[#333] block text-sm font-semibold">FAQs</a>
+              </li>
+              <li>
+                  <a href="#" class="font-[sans-serif] mr-4 hover:underline md:mr-6 text-[#333] block text-sm font-semibold">Contact</a>
+              </li>
+          </ul>
+          <span class="font-[sans-serif] text-sm text-[#333] block text-sm font-semibold sm:text-center ">© 2025 <a href="#" class="hover:underline">Libertywalk™</a>. All Rights Reserved.</span>
+      </div>
+    </footer>
+
+</body>
+</html>
